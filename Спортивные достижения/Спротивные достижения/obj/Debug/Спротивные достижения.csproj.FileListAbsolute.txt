@@ -1,0 +1,178 @@
+D:\курсовая\Спротивные достижения\Спротивные достижения\obj\Debug\Спротивные достижения.csproj.AssemblyReference.cache
+D:\курсовая\Спротивные достижения\Спротивные достижения\obj\Debug\Views\AdminWindow.g.cs
+D:\курсовая\Спротивные достижения\Спротивные достижения\obj\Debug\Views\ChangePasswordWindow.g.cs
+D:\курсовая\Спротивные достижения\Спротивные достижения\obj\Debug\Views\ForgotPasswordWindow.g.cs
+D:\курсовая\Спротивные достижения\Спротивные достижения\obj\Debug\Views\ImageViewerWindow.g.cs
+D:\курсовая\Спротивные достижения\Спротивные достижения\obj\Debug\Views\ReportWindow.g.cs
+D:\курсовая\Спротивные достижения\Спротивные достижения\obj\Debug\Views\StudentAchievementsWindow.g.cs
+D:\курсовая\Спротивные достижения\Спротивные достижения\obj\Debug\Views\StudentWindow.g.cs
+D:\курсовая\Спротивные достижения\Спротивные достижения\obj\Debug\Views\TeacherWindow.g.cs
+D:\курсовая\Спротивные достижения\Спротивные достижения\obj\Debug\Views\Окна для Создание , редактирвания и удаления\CreateAchievementWindow.g.cs
+D:\курсовая\Спротивные достижения\Спротивные достижения\obj\Debug\Views\Окна для Создание , редактирвания и удаления\CreateGroupWindow.g.cs
+D:\курсовая\Спротивные достижения\Спротивные достижения\obj\Debug\Views\Окна для Создание , редактирвания и удаления\CreateStudentWindow.g.cs
+D:\курсовая\Спротивные достижения\Спротивные достижения\obj\Debug\Views\Окна для Создание , редактирвания и удаления\CreateTeacherWindow.g.cs
+D:\курсовая\Спротивные достижения\Спротивные достижения\obj\Debug\Views\Окна для Создание , редактирвания и удаления\DeleteGroupWindow.g.cs
+D:\курсовая\Спротивные достижения\Спротивные достижения\obj\Debug\Views\Окна для Создание , редактирвания и удаления\EditAchievementWindow.g.cs
+D:\курсовая\Спротивные достижения\Спротивные достижения\obj\Debug\Views\Окна для Создание , редактирвания и удаления\EditStudentWindow.g.cs
+D:\курсовая\Спротивные достижения\Спротивные достижения\obj\Debug\Views\Окна для Создание , редактирвания и удаления\EditTeacherWindow.g.cs
+D:\курсовая\Спротивные достижения\Спротивные достижения\obj\Debug\App.g.cs
+D:\курсовая\Спротивные достижения\Спротивные достижения\obj\Debug\Спротивные достижения_Content.g.cs
+D:\курсовая\Спротивные достижения\Спротивные достижения\obj\Debug\Спротивные достижения_MarkupCompile.cache
+D:\курсовая\Спротивные достижения\Спротивные достижения\obj\Debug\Спротивные достижения_MarkupCompile.lref
+D:\курсовая\Спротивные достижения\Спротивные достижения\obj\Debug\MainWindow.g.cs
+D:\курсовая\Спротивные достижения\Спротивные достижения\bin\Debug\Спротивные достижения.exe.config
+D:\курсовая\Спротивные достижения\Спротивные достижения\bin\Debug\Спротивные достижения.exe
+D:\курсовая\Спротивные достижения\Спротивные достижения\bin\Debug\Спротивные достижения.pdb
+D:\курсовая\Спротивные достижения\Спротивные достижения\bin\Debug\EntityFramework.dll
+D:\курсовая\Спротивные достижения\Спротивные достижения\bin\Debug\EntityFramework.SqlServer.dll
+D:\курсовая\Спротивные достижения\Спротивные достижения\bin\Debug\Microsoft.Xaml.Behaviors.dll
+D:\курсовая\Спротивные достижения\Спротивные достижения\bin\Debug\System.Drawing.Common.dll
+D:\курсовая\Спротивные достижения\Спротивные достижения\bin\Debug\EntityFramework.xml
+D:\курсовая\Спротивные достижения\Спротивные достижения\bin\Debug\EntityFramework.SqlServer.xml
+D:\курсовая\Спротивные достижения\Спротивные достижения\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+D:\курсовая\Спротивные достижения\Спротивные достижения\bin\Debug\Microsoft.Xaml.Behaviors.xml
+D:\курсовая\Спротивные достижения\Спротивные достижения\bin\Debug\System.Drawing.Common.pdb
+D:\курсовая\Спротивные достижения\Спротивные достижения\bin\Debug\System.Drawing.Common.xml
+D:\курсовая\Спротивные достижения\Спротивные достижения\obj\Debug\MainWindow.baml
+D:\курсовая\Спротивные достижения\Спротивные достижения\obj\Debug\Views\AdminWindow.baml
+D:\курсовая\Спротивные достижения\Спротивные достижения\obj\Debug\Views\ChangePasswordWindow.baml
+D:\курсовая\Спротивные достижения\Спротивные достижения\obj\Debug\Views\ForgotPasswordWindow.baml
+D:\курсовая\Спротивные достижения\Спротивные достижения\obj\Debug\Views\ImageViewerWindow.baml
+D:\курсовая\Спротивные достижения\Спротивные достижения\obj\Debug\Views\ReportWindow.baml
+D:\курсовая\Спротивные достижения\Спротивные достижения\obj\Debug\Views\StudentAchievementsWindow.baml
+D:\курсовая\Спротивные достижения\Спротивные достижения\obj\Debug\Views\StudentWindow.baml
+D:\курсовая\Спротивные достижения\Спротивные достижения\obj\Debug\Views\TeacherWindow.baml
+D:\курсовая\Спротивные достижения\Спротивные достижения\obj\Debug\Views\Окна для Создание , редактирвания и удаления\CreateAchievementWindow.baml
+D:\курсовая\Спротивные достижения\Спротивные достижения\obj\Debug\Views\Окна для Создание , редактирвания и удаления\CreateGroupWindow.baml
+D:\курсовая\Спротивные достижения\Спротивные достижения\obj\Debug\Views\Окна для Создание , редактирвания и удаления\CreateStudentWindow.baml
+D:\курсовая\Спротивные достижения\Спротивные достижения\obj\Debug\Views\Окна для Создание , редактирвания и удаления\CreateTeacherWindow.baml
+D:\курсовая\Спротивные достижения\Спротивные достижения\obj\Debug\Views\Окна для Создание , редактирвания и удаления\DeleteGroupWindow.baml
+D:\курсовая\Спротивные достижения\Спротивные достижения\obj\Debug\Views\Окна для Создание , редактирвания и удаления\EditAchievementWindow.baml
+D:\курсовая\Спротивные достижения\Спротивные достижения\obj\Debug\Views\Окна для Создание , редактирвания и удаления\EditStudentWindow.baml
+D:\курсовая\Спротивные достижения\Спротивные достижения\obj\Debug\Views\Окна для Создание , редактирвания и удаления\EditTeacherWindow.baml
+D:\курсовая\Спротивные достижения\Спротивные достижения\obj\Debug\Спротивные достижения.g.resources
+D:\курсовая\Спротивные достижения\Спротивные достижения\obj\Debug\Спротивные_достижения.Properties.Resources.resources
+D:\курсовая\Спротивные достижения\Спротивные достижения\obj\Debug\Спротивные достижения.csproj.GenerateResource.cache
+D:\курсовая\Спротивные достижения\Спротивные достижения\obj\Debug\Спротивные достижения.csproj.CoreCompileInputs.cache
+D:\курсовая\Спротивные достижения\Спротивные достижения\obj\Debug\________.02F3B5A3.Up2Date
+D:\курсовая\Спротивные достижения\Спротивные достижения\obj\Debug\Спротивные достижения.exe
+D:\курсовая\Спротивные достижения\Спротивные достижения\obj\Debug\Спротивные достижения.pdb
+D:\курсовая\Спортивные достижения\Спротивные достижения\bin\Debug\Спротивные достижения.exe.config
+D:\курсовая\Спортивные достижения\Спротивные достижения\bin\Debug\Спротивные достижения.exe
+D:\курсовая\Спортивные достижения\Спротивные достижения\bin\Debug\Спротивные достижения.pdb
+D:\курсовая\Спортивные достижения\Спротивные достижения\bin\Debug\EntityFramework.dll
+D:\курсовая\Спортивные достижения\Спротивные достижения\bin\Debug\EntityFramework.SqlServer.dll
+D:\курсовая\Спортивные достижения\Спротивные достижения\bin\Debug\Microsoft.Xaml.Behaviors.dll
+D:\курсовая\Спортивные достижения\Спротивные достижения\bin\Debug\System.Drawing.Common.dll
+D:\курсовая\Спортивные достижения\Спротивные достижения\bin\Debug\EntityFramework.xml
+D:\курсовая\Спортивные достижения\Спротивные достижения\bin\Debug\EntityFramework.SqlServer.xml
+D:\курсовая\Спортивные достижения\Спротивные достижения\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+D:\курсовая\Спортивные достижения\Спротивные достижения\bin\Debug\Microsoft.Xaml.Behaviors.xml
+D:\курсовая\Спортивные достижения\Спротивные достижения\bin\Debug\System.Drawing.Common.pdb
+D:\курсовая\Спортивные достижения\Спротивные достижения\bin\Debug\System.Drawing.Common.xml
+D:\курсовая\Спортивные достижения\Спротивные достижения\obj\Debug\Спротивные достижения.csproj.AssemblyReference.cache
+D:\курсовая\Спортивные достижения\Спротивные достижения\obj\Debug\MainWindow.g.cs
+D:\курсовая\Спортивные достижения\Спротивные достижения\obj\Debug\Views\AdminWindow.g.cs
+D:\курсовая\Спортивные достижения\Спротивные достижения\obj\Debug\Views\ChangePasswordWindow.g.cs
+D:\курсовая\Спортивные достижения\Спротивные достижения\obj\Debug\Views\ForgotPasswordWindow.g.cs
+D:\курсовая\Спортивные достижения\Спротивные достижения\obj\Debug\Views\ImageViewerWindow.g.cs
+D:\курсовая\Спортивные достижения\Спротивные достижения\obj\Debug\Views\ReportWindow.g.cs
+D:\курсовая\Спортивные достижения\Спротивные достижения\obj\Debug\Views\StudentAchievementsWindow.g.cs
+D:\курсовая\Спортивные достижения\Спротивные достижения\obj\Debug\Views\StudentWindow.g.cs
+D:\курсовая\Спортивные достижения\Спротивные достижения\obj\Debug\Views\TeacherWindow.g.cs
+D:\курсовая\Спортивные достижения\Спротивные достижения\obj\Debug\Views\Окна для Создание , редактирвания и удаления\CreateAchievementWindow.g.cs
+D:\курсовая\Спортивные достижения\Спротивные достижения\obj\Debug\Views\Окна для Создание , редактирвания и удаления\CreateGroupWindow.g.cs
+D:\курсовая\Спортивные достижения\Спротивные достижения\obj\Debug\Views\Окна для Создание , редактирвания и удаления\CreateStudentWindow.g.cs
+D:\курсовая\Спортивные достижения\Спротивные достижения\obj\Debug\Views\Окна для Создание , редактирвания и удаления\CreateTeacherWindow.g.cs
+D:\курсовая\Спортивные достижения\Спротивные достижения\obj\Debug\Views\Окна для Создание , редактирвания и удаления\DeleteGroupWindow.g.cs
+D:\курсовая\Спортивные достижения\Спротивные достижения\obj\Debug\Views\Окна для Создание , редактирвания и удаления\EditAchievementWindow.g.cs
+D:\курсовая\Спортивные достижения\Спротивные достижения\obj\Debug\Views\Окна для Создание , редактирвания и удаления\EditStudentWindow.g.cs
+D:\курсовая\Спортивные достижения\Спротивные достижения\obj\Debug\Views\Окна для Создание , редактирвания и удаления\EditTeacherWindow.g.cs
+D:\курсовая\Спортивные достижения\Спротивные достижения\obj\Debug\App.g.cs
+D:\курсовая\Спортивные достижения\Спротивные достижения\obj\Debug\Спротивные достижения_Content.g.cs
+D:\курсовая\Спортивные достижения\Спротивные достижения\obj\Debug\Спротивные достижения_MarkupCompile.cache
+D:\курсовая\Спортивные достижения\Спротивные достижения\obj\Debug\Спротивные достижения_MarkupCompile.lref
+D:\курсовая\Спортивные достижения\Спротивные достижения\obj\Debug\MainWindow.baml
+D:\курсовая\Спортивные достижения\Спротивные достижения\obj\Debug\Views\AdminWindow.baml
+D:\курсовая\Спортивные достижения\Спротивные достижения\obj\Debug\Views\ChangePasswordWindow.baml
+D:\курсовая\Спортивные достижения\Спротивные достижения\obj\Debug\Views\ForgotPasswordWindow.baml
+D:\курсовая\Спортивные достижения\Спротивные достижения\obj\Debug\Views\ImageViewerWindow.baml
+D:\курсовая\Спортивные достижения\Спротивные достижения\obj\Debug\Views\ReportWindow.baml
+D:\курсовая\Спортивные достижения\Спротивные достижения\obj\Debug\Views\StudentAchievementsWindow.baml
+D:\курсовая\Спортивные достижения\Спротивные достижения\obj\Debug\Views\StudentWindow.baml
+D:\курсовая\Спортивные достижения\Спротивные достижения\obj\Debug\Views\TeacherWindow.baml
+D:\курсовая\Спортивные достижения\Спротивные достижения\obj\Debug\Views\Окна для Создание , редактирвания и удаления\CreateAchievementWindow.baml
+D:\курсовая\Спортивные достижения\Спротивные достижения\obj\Debug\Views\Окна для Создание , редактирвания и удаления\CreateGroupWindow.baml
+D:\курсовая\Спортивные достижения\Спротивные достижения\obj\Debug\Views\Окна для Создание , редактирвания и удаления\CreateStudentWindow.baml
+D:\курсовая\Спортивные достижения\Спротивные достижения\obj\Debug\Views\Окна для Создание , редактирвания и удаления\CreateTeacherWindow.baml
+D:\курсовая\Спортивные достижения\Спротивные достижения\obj\Debug\Views\Окна для Создание , редактирвания и удаления\DeleteGroupWindow.baml
+D:\курсовая\Спортивные достижения\Спротивные достижения\obj\Debug\Views\Окна для Создание , редактирвания и удаления\EditAchievementWindow.baml
+D:\курсовая\Спортивные достижения\Спротивные достижения\obj\Debug\Views\Окна для Создание , редактирвания и удаления\EditStudentWindow.baml
+D:\курсовая\Спортивные достижения\Спротивные достижения\obj\Debug\Views\Окна для Создание , редактирвания и удаления\EditTeacherWindow.baml
+D:\курсовая\Спортивные достижения\Спротивные достижения\obj\Debug\Спротивные достижения.g.resources
+D:\курсовая\Спортивные достижения\Спротивные достижения\obj\Debug\Спротивные_достижения.Properties.Resources.resources
+D:\курсовая\Спортивные достижения\Спротивные достижения\obj\Debug\Спротивные достижения.csproj.GenerateResource.cache
+D:\курсовая\Спортивные достижения\Спротивные достижения\obj\Debug\Спротивные достижения.csproj.CoreCompileInputs.cache
+D:\курсовая\Спортивные достижения\Спротивные достижения\obj\Debug\________.02F3B5A3.Up2Date
+D:\курсовая\Спортивные достижения\Спротивные достижения\obj\Debug\Спротивные достижения.exe
+D:\курсовая\Спортивные достижения\Спротивные достижения\obj\Debug\Спротивные достижения.pdb
+E:\Спортивные достижения\Спротивные достижения\bin\Debug\Спротивные достижения.exe.config
+E:\Спортивные достижения\Спротивные достижения\bin\Debug\Спротивные достижения.exe
+E:\Спортивные достижения\Спротивные достижения\bin\Debug\Спротивные достижения.pdb
+E:\Спортивные достижения\Спротивные достижения\bin\Debug\EntityFramework.dll
+E:\Спортивные достижения\Спротивные достижения\bin\Debug\EntityFramework.SqlServer.dll
+E:\Спортивные достижения\Спротивные достижения\bin\Debug\Microsoft.Xaml.Behaviors.dll
+E:\Спортивные достижения\Спротивные достижения\bin\Debug\System.Drawing.Common.dll
+E:\Спортивные достижения\Спротивные достижения\bin\Debug\EntityFramework.xml
+E:\Спортивные достижения\Спротивные достижения\bin\Debug\EntityFramework.SqlServer.xml
+E:\Спортивные достижения\Спротивные достижения\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+E:\Спортивные достижения\Спротивные достижения\bin\Debug\Microsoft.Xaml.Behaviors.xml
+E:\Спортивные достижения\Спротивные достижения\bin\Debug\System.Drawing.Common.pdb
+E:\Спортивные достижения\Спротивные достижения\bin\Debug\System.Drawing.Common.xml
+E:\Спортивные достижения\Спротивные достижения\obj\Debug\Спротивные достижения.csproj.AssemblyReference.cache
+E:\Спортивные достижения\Спротивные достижения\obj\Debug\Спротивные достижения.exe.config
+E:\Спортивные достижения\Спротивные достижения\obj\Debug\MainWindow.g.cs
+E:\Спортивные достижения\Спротивные достижения\obj\Debug\Views\AdminWindow.g.cs
+E:\Спортивные достижения\Спротивные достижения\obj\Debug\Views\ChangePasswordWindow.g.cs
+E:\Спортивные достижения\Спротивные достижения\obj\Debug\Views\ForgotPasswordWindow.g.cs
+E:\Спортивные достижения\Спротивные достижения\obj\Debug\Views\ImageViewerWindow.g.cs
+E:\Спортивные достижения\Спротивные достижения\obj\Debug\Views\ReportWindow.g.cs
+E:\Спортивные достижения\Спротивные достижения\obj\Debug\Views\StudentAchievementsWindow.g.cs
+E:\Спортивные достижения\Спротивные достижения\obj\Debug\Views\StudentWindow.g.cs
+E:\Спортивные достижения\Спротивные достижения\obj\Debug\Views\TeacherWindow.g.cs
+E:\Спортивные достижения\Спротивные достижения\obj\Debug\Views\Окна для Создание , редактирвания и удаления\CreateAchievementWindow.g.cs
+E:\Спортивные достижения\Спротивные достижения\obj\Debug\Views\Окна для Создание , редактирвания и удаления\CreateGroupWindow.g.cs
+E:\Спортивные достижения\Спротивные достижения\obj\Debug\Views\Окна для Создание , редактирвания и удаления\CreateStudentWindow.g.cs
+E:\Спортивные достижения\Спротивные достижения\obj\Debug\Views\Окна для Создание , редактирвания и удаления\CreateTeacherWindow.g.cs
+E:\Спортивные достижения\Спротивные достижения\obj\Debug\Views\Окна для Создание , редактирвания и удаления\DeleteGroupWindow.g.cs
+E:\Спортивные достижения\Спротивные достижения\obj\Debug\Views\Окна для Создание , редактирвания и удаления\EditAchievementWindow.g.cs
+E:\Спортивные достижения\Спротивные достижения\obj\Debug\Views\Окна для Создание , редактирвания и удаления\EditStudentWindow.g.cs
+E:\Спортивные достижения\Спротивные достижения\obj\Debug\Views\Окна для Создание , редактирвания и удаления\EditTeacherWindow.g.cs
+E:\Спортивные достижения\Спротивные достижения\obj\Debug\App.g.cs
+E:\Спортивные достижения\Спротивные достижения\obj\Debug\Спротивные достижения_Content.g.cs
+E:\Спортивные достижения\Спротивные достижения\obj\Debug\Спротивные достижения_MarkupCompile.cache
+E:\Спортивные достижения\Спротивные достижения\obj\Debug\Спротивные достижения_MarkupCompile.lref
+E:\Спортивные достижения\Спротивные достижения\obj\Debug\MainWindow.baml
+E:\Спортивные достижения\Спротивные достижения\obj\Debug\Views\AdminWindow.baml
+E:\Спортивные достижения\Спротивные достижения\obj\Debug\Views\ChangePasswordWindow.baml
+E:\Спортивные достижения\Спротивные достижения\obj\Debug\Views\ForgotPasswordWindow.baml
+E:\Спортивные достижения\Спротивные достижения\obj\Debug\Views\ImageViewerWindow.baml
+E:\Спортивные достижения\Спротивные достижения\obj\Debug\Views\ReportWindow.baml
+E:\Спортивные достижения\Спротивные достижения\obj\Debug\Views\StudentAchievementsWindow.baml
+E:\Спортивные достижения\Спротивные достижения\obj\Debug\Views\StudentWindow.baml
+E:\Спортивные достижения\Спротивные достижения\obj\Debug\Views\TeacherWindow.baml
+E:\Спортивные достижения\Спротивные достижения\obj\Debug\Views\Окна для Создание , редактирвания и удаления\CreateAchievementWindow.baml
+E:\Спортивные достижения\Спротивные достижения\obj\Debug\Views\Окна для Создание , редактирвания и удаления\CreateGroupWindow.baml
+E:\Спортивные достижения\Спротивные достижения\obj\Debug\Views\Окна для Создание , редактирвания и удаления\CreateStudentWindow.baml
+E:\Спортивные достижения\Спротивные достижения\obj\Debug\Views\Окна для Создание , редактирвания и удаления\CreateTeacherWindow.baml
+E:\Спортивные достижения\Спротивные достижения\obj\Debug\Views\Окна для Создание , редактирвания и удаления\DeleteGroupWindow.baml
+E:\Спортивные достижения\Спротивные достижения\obj\Debug\Views\Окна для Создание , редактирвания и удаления\EditAchievementWindow.baml
+E:\Спортивные достижения\Спротивные достижения\obj\Debug\Views\Окна для Создание , редактирвания и удаления\EditStudentWindow.baml
+E:\Спортивные достижения\Спротивные достижения\obj\Debug\Views\Окна для Создание , редактирвания и удаления\EditTeacherWindow.baml
+E:\Спортивные достижения\Спротивные достижения\obj\Debug\Спротивные достижения.g.resources
+E:\Спортивные достижения\Спротивные достижения\obj\Debug\Спротивные_достижения.Properties.Resources.resources
+E:\Спортивные достижения\Спротивные достижения\obj\Debug\Спротивные достижения.csproj.GenerateResource.cache
+E:\Спортивные достижения\Спротивные достижения\obj\Debug\Спротивные достижения.csproj.CoreCompileInputs.cache
+E:\Спортивные достижения\Спротивные достижения\obj\Debug\________.02F3B5A3.Up2Date
+E:\Спортивные достижения\Спротивные достижения\obj\Debug\Спротивные достижения.exe
+E:\Спортивные достижения\Спротивные достижения\obj\Debug\Спротивные достижения.pdb

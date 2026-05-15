@@ -1,0 +1,269 @@
+﻿<Window x:Class="Спротивные_достижения.Views.StudentAchievementsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Спротивные_достижения.Views"
+        mc:Ignorable="d"
+        Title="Достижения студента" 
+        Height="700" 
+        Width="1200" 
+        WindowStartupLocation="CenterScreen"
+        Background="#F5F5F5">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Верхняя панель -->
+        <Border Grid.Row="0" 
+                Background="#9C27B0" 
+                Height="80"
+                CornerRadius="0,0,20,20">
+            <Grid Margin="20,0">
+                <TextBlock Text="Достижения студента" 
+                           Foreground="White" 
+                           FontSize="24" 
+                           FontWeight="Bold"
+                           VerticalAlignment="Center"
+                           FontFamily="Segoe UI"/>
+
+                <StackPanel Orientation="Horizontal" 
+                            HorizontalAlignment="Right" 
+                            VerticalAlignment="Center">
+                    <TextBlock x:Name="txtStudentInfo" 
+                               Foreground="White" 
+                               FontSize="14"
+                               VerticalAlignment="Center"
+                               Margin="0,0,15,0"/>
+                    <Button x:Name="CloseButton" 
+                            Content="Закрыть" 
+                            Background="Transparent"
+                            Foreground="White"
+                            BorderThickness="1"
+                            BorderBrush="White"
+                            FontSize="12"
+                            Padding="10,5"
+                            Cursor="Hand"
+                            Click="CloseButton_Click"/>
+                </StackPanel>
+            </Grid>
+        </Border>
+
+        <!-- Панель с кнопками -->
+        <Border Grid.Row="1" 
+        Background="White" 
+        CornerRadius="8"
+        BorderBrush="#E0E0E0"
+        BorderThickness="1"
+        Padding="15"
+        Margin="20,20,20,10">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Grid.Column="0">
+                    <Button x:Name="btnCreate" 
+                    Content="Создать достижение" 
+                    Background="#4CAF50"
+                    Foreground="White"
+                    FontWeight="Bold"
+                    FontSize="13"
+                    Height="38"
+                    Width="150"
+                    Margin="0,0,10,0"
+                    Cursor="Hand"
+                    Click="BtnCreate_Click"/>
+                    <Button x:Name="btnEdit" 
+                    Content="Редактировать достижение" 
+                    Background="#2196F3"
+                    Foreground="White"
+                    FontWeight="Bold"
+                    FontSize="13"
+                    Height="38"
+                    Width="160"
+                    Margin="0,0,10,0"
+                    Cursor="Hand"
+                    Click="BtnEdit_Click"/>
+                    <Button x:Name="btnDelete" 
+                    Content="Удалить достижение" 
+                    Background="#F44336"
+                    Foreground="White"
+                    FontWeight="Bold"
+                    FontSize="13"
+                    Height="38"
+                    Width="150"
+                    Margin="0,0,10,0"
+                    Cursor="Hand"
+                    Click="BtnDelete_Click"/>
+                    <Button x:Name="btnViewImage" 
+                    Content="Посмотреть графическое достижение" 
+                    Background="#9C27B0"
+                    Foreground="White"
+                    FontWeight="Bold"
+                    FontSize="13"
+                    Height="38"
+                    Width="200"
+                    Margin="0,0,10,0"
+                    Cursor="Hand"
+                    Click="BtnViewImage_Click"/>
+                    <Button x:Name="btnAttachImage" 
+                    Content="Закрепить графическое достижение" 
+                    Background="#FF9800"
+                    Foreground="White"
+                    FontWeight="Bold"
+                    FontSize="13"
+                    Height="38"
+                    Width="220"
+                    Cursor="Hand"
+                    Click="BtnAttachImage_Click"/>
+                </StackPanel>
+                <TextBlock x:Name="txtAchievementCount" 
+                   Grid.Column="1" 
+                   Text="Всего: 0" 
+                   FontSize="12" 
+                   Foreground="#666666" 
+                   VerticalAlignment="Center"/>
+            </Grid>
+        </Border>
+
+        <!-- Таблица достижений с прокруткой -->
+        <Border Grid.Row="2" 
+                Background="White" 
+                CornerRadius="8"
+                BorderBrush="#E0E0E0"
+                BorderThickness="1"
+                Padding="0"
+                Margin="20,0,20,15">
+            <ScrollViewer x:Name="AchievementsScrollViewer"
+                          VerticalScrollBarVisibility="Auto" 
+                          HorizontalScrollBarVisibility="Auto"
+                          CanContentScroll="True"
+                          PreviewMouseWheel="AchievementsScrollViewer_PreviewMouseWheel">
+                <DataGrid x:Name="AchievementsDataGrid" 
+                          AutoGenerateColumns="False"
+                          CanUserAddRows="False"
+                          CanUserDeleteRows="False"
+                          CanUserReorderColumns="True"
+                          CanUserResizeColumns="True"
+                          CanUserSortColumns="True"
+                          IsReadOnly="True"
+                          GridLinesVisibility="Horizontal"
+                          RowHeight="35"
+                          FontSize="12"
+                          AlternatingRowBackground="#F9F9F9"
+                          BorderThickness="0"
+                          SelectionMode="Single"
+                          SelectionUnit="FullRow"
+                          ScrollViewer.CanContentScroll="True"
+                          ScrollViewer.PanningMode="Both">
+
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="ID" Binding="{Binding Id}" Width="50">
+                            <DataGridTextColumn.ElementStyle>
+                                <Style TargetType="TextBlock">
+                                    <Setter Property="HorizontalAlignment" Value="Center"/>
+                                    <Setter Property="VerticalAlignment" Value="Center"/>
+                                </Style>
+                            </DataGridTextColumn.ElementStyle>
+                        </DataGridTextColumn>
+
+                        <DataGridTextColumn Header="Название мероприятия" Binding="{Binding EventName}" Width="200">
+                            <DataGridTextColumn.ElementStyle>
+                                <Style TargetType="TextBlock">
+                                    <Setter Property="VerticalAlignment" Value="Center"/>
+                                </Style>
+                            </DataGridTextColumn.ElementStyle>
+                        </DataGridTextColumn>
+
+                        <DataGridTextColumn Header="Вид спорта" Binding="{Binding SportType}" Width="120">
+                            <DataGridTextColumn.ElementStyle>
+                                <Style TargetType="TextBlock">
+                                    <Setter Property="VerticalAlignment" Value="Center"/>
+                                </Style>
+                            </DataGridTextColumn.ElementStyle>
+                        </DataGridTextColumn>
+
+                        <DataGridTextColumn Header="Уровень" Binding="{Binding Level}" Width="100">
+                            <DataGridTextColumn.ElementStyle>
+                                <Style TargetType="TextBlock">
+                                    <Setter Property="VerticalAlignment" Value="Center"/>
+                                </Style>
+                            </DataGridTextColumn.ElementStyle>
+                        </DataGridTextColumn>
+
+                        <DataGridTextColumn Header="Место" Binding="{Binding Place}" Width="60">
+                            <DataGridTextColumn.ElementStyle>
+                                <Style TargetType="TextBlock">
+                                    <Setter Property="HorizontalAlignment" Value="Center"/>
+                                    <Setter Property="VerticalAlignment" Value="Center"/>
+                                </Style>
+                            </DataGridTextColumn.ElementStyle>
+                        </DataGridTextColumn>
+
+                        <DataGridTextColumn Header="Место проведения" Binding="{Binding Venue}" Width="150">
+                            <DataGridTextColumn.ElementStyle>
+                                <Style TargetType="TextBlock">
+                                    <Setter Property="VerticalAlignment" Value="Center"/>
+                                </Style>
+                            </DataGridTextColumn.ElementStyle>
+                        </DataGridTextColumn>
+
+                        <DataGridTextColumn Header="Дата проведения" Binding="{Binding EventDate, StringFormat='dd.MM.yyyy'}" Width="100">
+                            <DataGridTextColumn.ElementStyle>
+                                <Style TargetType="TextBlock">
+                                    <Setter Property="HorizontalAlignment" Value="Center"/>
+                                    <Setter Property="VerticalAlignment" Value="Center"/>
+                                </Style>
+                            </DataGridTextColumn.ElementStyle>
+                        </DataGridTextColumn>
+
+                        <DataGridTextColumn Header="Дата выдачи" Binding="{Binding IssueDate, StringFormat='dd.MM.yyyy'}" Width="100">
+                            <DataGridTextColumn.ElementStyle>
+                                <Style TargetType="TextBlock">
+                                    <Setter Property="HorizontalAlignment" Value="Center"/>
+                                    <Setter Property="VerticalAlignment" Value="Center"/>
+                                </Style>
+                            </DataGridTextColumn.ElementStyle>
+                        </DataGridTextColumn>
+
+                        <DataGridTextColumn Header="Командная" Binding="{Binding IsTeam}" Width="80">
+                            <DataGridTextColumn.ElementStyle>
+                                <Style TargetType="TextBlock">
+                                    <Setter Property="HorizontalAlignment" Value="Center"/>
+                                    <Setter Property="VerticalAlignment" Value="Center"/>
+                                </Style>
+                            </DataGridTextColumn.ElementStyle>
+                        </DataGridTextColumn>
+
+                        <DataGridTextColumn Header="Численность" Binding="{Binding TeamSize}" Width="80">
+                            <DataGridTextColumn.ElementStyle>
+                                <Style TargetType="TextBlock">
+                                    <Setter Property="HorizontalAlignment" Value="Center"/>
+                                    <Setter Property="VerticalAlignment" Value="Center"/>
+                                </Style>
+                            </DataGridTextColumn.ElementStyle>
+                        </DataGridTextColumn>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </ScrollViewer>
+        </Border>
+
+        <!-- Нижняя панель -->
+        <Border Grid.Row="3" 
+                Background="#E0E0E0" 
+                Height="40"
+                CornerRadius="20,20,0,0">
+            <TextBlock Text="© Система учета спортивных достижений" 
+                       Foreground="#666666"
+                       FontSize="12"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center"/>
+        </Border>
+    </Grid>
+</Window>

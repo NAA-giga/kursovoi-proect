@@ -1,0 +1,241 @@
+﻿<Window x:Class="Спротивные_достижения.Views.ReportWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Спротивные_достижения.Views"
+        mc:Ignorable="d"
+        Title="Формирование отчета" 
+        Height="800" 
+        Width="1200" 
+        WindowStartupLocation="CenterScreen"
+        Background="#F5F5F5">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Верхняя панель -->
+        <Border Grid.Row="0" 
+                Background="#4CAF50" 
+                Height="80"
+                CornerRadius="0,0,20,20">
+            <Grid Margin="20,0">
+                <TextBlock Text="Формирование отчета" 
+                           Foreground="White" 
+                           FontSize="24" 
+                           FontWeight="Bold"
+                           VerticalAlignment="Center"
+                           FontFamily="Segoe UI"/>
+
+                <Button x:Name="CloseButton" 
+                        Content="Закрыть" 
+                        Background="Transparent"
+                        Foreground="White"
+                        BorderThickness="1"
+                        BorderBrush="White"
+                        FontSize="12"
+                        Padding="10,5"
+                        HorizontalAlignment="Right"
+                        VerticalAlignment="Center"
+                        Cursor="Hand"
+                        Click="CloseButton_Click"/>
+            </Grid>
+        </Border>
+
+        <!-- Панель выбора периода -->
+        <Border Grid.Row="1" 
+                Background="White" 
+                CornerRadius="8"
+                BorderBrush="#E0E0E0"
+                BorderThickness="1"
+                Padding="15"
+                Margin="20,15,20,10">
+            <StackPanel>
+                <TextBlock Text="Выбор периода" 
+                           FontSize="16" 
+                           FontWeight="SemiBold"
+                           Foreground="#333333"
+                           HorizontalAlignment="Center"
+                           Margin="0,0,0,12"/>
+
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+
+                    <TextBlock Grid.Column="0" 
+                               Text="От:" 
+                               FontSize="13" 
+                               FontWeight="SemiBold"
+                               VerticalAlignment="Center"
+                               Margin="0,0,8,0"/>
+
+                    <DatePicker x:Name="StartDatePicker" 
+                                Grid.Column="1"
+                                Height="32"
+                                Width="140"
+                                Margin="0,0,15,0"/>
+
+                    <TextBlock Grid.Column="2" 
+                               Text="До:" 
+                               FontSize="13" 
+                               FontWeight="SemiBold"
+                               VerticalAlignment="Center"
+                               Margin="0,0,8,0"/>
+
+                    <DatePicker x:Name="EndDatePicker" 
+                                Grid.Column="3"
+                                Height="32"
+                                Width="140"
+                                Margin="0,0,15,0"/>
+
+                    <Button x:Name="GenerateReportButton" 
+                            Grid.Column="4"
+                            Content="Сформировать" 
+                            Background="#4CAF50"
+                            Foreground="White"
+                            FontWeight="Bold"
+                            Height="32"
+                            Width="110"
+                            Cursor="Hand"
+                            Click="GenerateReportButton_Click"/>
+                </Grid>
+
+                <TextBlock x:Name="DateStatusTextBlock" 
+                           Text="" 
+                           FontSize="11"
+                           Foreground="#FF9800"
+                           HorizontalAlignment="Center"
+                           Margin="0,8,0,0"/>
+            </StackPanel>
+        </Border>
+
+        <!-- Таблица с результатами (ListView) -->
+        <Border Grid.Row="2" 
+                Background="White" 
+                CornerRadius="8"
+                BorderBrush="#E0E0E0"
+                BorderThickness="1"
+                Padding="0"
+                Margin="20,0,20,15">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <!-- Заголовок с итогами -->
+                <Border Grid.Row="0" 
+                        Background="#F5F5F5" 
+                        Padding="10,8"
+                        BorderBrush="#E0E0E0"
+                        BorderThickness="0,0,0,1"
+                        CornerRadius="8,8,0,0">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock x:Name="SummaryTextBlock" 
+                                   Text="Выберите период и нажмите 'Сформировать'" 
+                                   FontSize="12"
+                                   Foreground="#666666"
+                                   VerticalAlignment="Center"
+                                   TextWrapping="Wrap"/>
+                        <Button x:Name="ExportButton" 
+                                Grid.Column="1"
+                                Content="📎 Экспорт в Excel" 
+                                Background="#2196F3"
+                                Foreground="White"
+                                FontSize="12"
+                                Padding="10,5"
+                                Cursor="Hand"
+                                IsEnabled="False"
+                                Click="ExportButton_Click"/>
+                    </Grid>
+                </Border>
+
+                <!-- Таблица с прокруткой -->
+                <ScrollViewer x:Name="ReportScrollViewer"
+                              Grid.Row="1"
+                              VerticalScrollBarVisibility="Auto" 
+                              HorizontalScrollBarVisibility="Auto"
+                              PreviewMouseWheel="ReportScrollViewer_PreviewMouseWheel">
+                    <ListView x:Name="lvReport" 
+                              SelectionMode="Single"
+                              Background="Transparent"
+                              BorderThickness="0"
+                              AlternationCount="2"
+                              ScrollViewer.CanContentScroll="True"
+                              ScrollViewer.PanningMode="Both">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn Header="ID" DisplayMemberBinding="{Binding Id}" Width="50">
+                                    <GridViewColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <TextBlock Text="{Binding Id}" HorizontalAlignment="Center"/>
+                                        </DataTemplate>
+                                    </GridViewColumn.CellTemplate>
+                                </GridViewColumn>
+                                <GridViewColumn Header="Тип операции" DisplayMemberBinding="{Binding OperationType}" Width="100"/>
+                                <GridViewColumn Header="Дата" DisplayMemberBinding="{Binding Date, StringFormat='dd.MM.yyyy'}" Width="100">
+                                    <GridViewColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <TextBlock Text="{Binding Date, StringFormat='dd.MM.yyyy'}" HorizontalAlignment="Center"/>
+                                        </DataTemplate>
+                                    </GridViewColumn.CellTemplate>
+                                </GridViewColumn>
+                                <GridViewColumn Header="Пользователь" DisplayMemberBinding="{Binding UserName}" Width="200"/>
+                                <GridViewColumn Header="Роль" DisplayMemberBinding="{Binding UserRole}" Width="100"/>
+                                <GridViewColumn Header="Объект" DisplayMemberBinding="{Binding ObjectName}" Width="100"/>
+                                <GridViewColumn Header="Детали" DisplayMemberBinding="{Binding Details}" Width="400">
+                                    <GridViewColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <TextBlock Text="{Binding Details}" TextWrapping="Wrap" Margin="5,0"/>
+                                        </DataTemplate>
+                                    </GridViewColumn.CellTemplate>
+                                </GridViewColumn>
+                            </GridView>
+                        </ListView.View>
+                        <ListView.ItemContainerStyle>
+                            <Style TargetType="ListViewItem">
+                                <Setter Property="VerticalContentAlignment" Value="Center"/>
+                                <Style.Triggers>
+                                    <Trigger Property="ItemsControl.AlternationIndex" Value="0">
+                                        <Setter Property="Background" Value="White"/>
+                                    </Trigger>
+                                    <Trigger Property="ItemsControl.AlternationIndex" Value="1">
+                                        <Setter Property="Background" Value="#F9F9F9"/>
+                                    </Trigger>
+                                    <Trigger Property="IsSelected" Value="True">
+                                        <Setter Property="Background" Value="#E0E0E0"/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </ListView.ItemContainerStyle>
+                    </ListView>
+                </ScrollViewer>
+            </Grid>
+        </Border>
+
+        <!-- Нижняя панель -->
+        <Border Grid.Row="3" 
+                Background="#E0E0E0" 
+                Height="40"
+                CornerRadius="20,20,0,0">
+            <TextBlock Text="© Система учета спортивных достижений" 
+                       Foreground="#666666"
+                       FontSize="12"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center"/>
+        </Border>
+    </Grid>
+</Window>
